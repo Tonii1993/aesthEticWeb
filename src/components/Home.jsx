@@ -4,7 +4,7 @@ import Separator from "./Seperator";
 import BigCard from "../layouts/BigCard";
 import GridCards from "../layouts/GridCards";
 import ExpertTeam from "../layouts/ExpertTeam";
-import NewsCarousel from "../layouts/NewsCarousel";
+import NewsCarousel from "./NewsCarousel";
 import Newsletter from "./Newsletter";
 
 const Home = () => {

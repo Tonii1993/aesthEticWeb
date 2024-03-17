@@ -1,12 +1,14 @@
 import React from "react";
-import Blogs from "./Blogs";
-import Hero from "./Hero";
+import BeautyHero from "./BeautyHero";
+import VideoCarouselDoctors from "./VideoCarouselDoctors";
+import VideoCarouselClient from "./VideoCarouselClient";
 
 const Beauty = () => {
   return (
-    <div>
-      <Blogs />
-      <Hero />
+    <div className="pt-10">
+      <BeautyHero />
+      <VideoCarouselDoctors />
+      <VideoCarouselClient />
     </div>
   );
 };

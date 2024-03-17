@@ -7,7 +7,7 @@ const Separator = ({ heading, paragraph, className }) => {
   };
 
   return (
-    <div className={`text-center p-10 ${className}`} style={separatorStyle}>
+    <div className={`text-center p-8 ${className}`} style={separatorStyle}>
       {heading && (
         <h2 className="text-2xl md:text-3xl lg:text-4xl">{heading}</h2>
       )}

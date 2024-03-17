@@ -3,8 +3,8 @@ import Button from "../layouts/Button";
 
 const Newsletter = () => {
   return (
-    <section className="mt-10 p-10">
-      <div className="container mx-auto flex flex-col items-center justify-center rounded-2xl bg-PrimaryColor px-6 py-16 max-w-6xl">
+    <section>
+      <div className="container flex flex-col items-center justify-center rounded-2xl bg-PrimaryColor px-5 py-16">
         <h2 className="text-black text-2xl font-bold md:text-3xl mb-3">
           Be the first who sees the news
         </h2>
@@ -12,7 +12,7 @@ const Newsletter = () => {
           Your company may not be in the software business, but eventually, a
           software company will be in your business.
         </p>
-        <div className="flex flex-col gap-3 w-full md:flex-row justify-center">
+        <div className="flex flex-col gap-3 w-full md:flex-row justify-center text-center">
           <input
             type="email"
             placeholder="Email"
